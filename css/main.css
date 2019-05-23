@@ -4,12 +4,14 @@
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
 .divider-text span {
     padding: 7px;
     font-size: 12px;
-    position: relative;   
+    position: relative;
     z-index: 2;
 }
+
 .divider-text:after {
     content: "";
     position: absolute;
@@ -18,4 +20,23 @@
     top: 55%;
     left: 0;
     z-index: 1;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;   
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
 }
