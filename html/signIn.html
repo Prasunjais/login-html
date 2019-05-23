@@ -23,14 +23,9 @@
 
         <div class="container">
             <article class="card-body mx-auto" style="width: 50%">
-                <h4 class="card-title mt-3 text-center">Create Account</h4>
+                <h4 class="card-title mt-3 text-center">Login</h4>
                 <form>
-                    <div class="form-group input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
-                        </div>
-                        <input name="" class="form-control" placeholder="Full name" type="text">
-                    </div> <!-- form-group// -->
+                    <!-- form-group// -->
                     <div class="form-group input-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
@@ -39,43 +34,14 @@
                     </div> <!-- form-group// -->
                     <div class="form-group input-group">
                         <div class="input-group-prepend">
-                            <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
-                        </div>
-                        <select class="custom-select" style="max-width: 120px;">
-                            <option selected="">+971</option>
-                            <option value="1">+972</option>
-                            <option value="2">+198</option>
-                            <option value="3">+701</option>
-                        </select>
-                        <input name="" class="form-control" placeholder="Phone number" type="text">
-                    </div> <!-- form-group// -->
-                    <div class="form-group input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"> <i class="fa fa-building"></i> </span>
-                        </div>
-                        <select class="form-control">
-                            <option selected=""> Select job type</option>
-                            <option>Designer</option>
-                            <option>Manager</option>
-                            <option>Accaunting</option>
-                        </select>
-                    </div> <!-- form-group end.// -->
-                    <div class="form-group input-group">
-                        <div class="input-group-prepend">
                             <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
                         </div>
-                        <input class="form-control" placeholder="Create password" type="password">
-                    </div> <!-- form-group// -->
-                    <div class="form-group input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-                        </div>
-                        <input class="form-control" placeholder="Repeat password" type="password">
+                        <input class="form-control" placeholder="password" type="password">
                     </div> <!-- form-group// -->
                     <div class="form-group">
-                        <button type="submit" class="btn btn-primary btn-block"> Create Account </button>
+                        <input type="button" class="btn btn-primary btn-block" onclick="window.location.href = './createThread.html';" value="Login" />
                     </div> <!-- form-group// -->
-                    <p class="text-center">Have an account? <a href="./signIn.html">Log In</a> </p>
+                    <p class="text-center">Dont have a account? <a href="./index.html">Sign Up</a> </p>
                 </form>
             </article>
         </div>
